@@ -8,6 +8,10 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Dashboard from "./pages/Dashboard";
 import Students from "./pages/Students";
+import Subjects from "./pages/Subjects";
+import Scores from "./pages/Scores";
+import Reports from "./pages/Reports";
+import Analytics from "./pages/Analytics";
 import NotFound from "./pages/NotFound";
 import { DashboardLayout } from "./components/DashboardLayout";
 
@@ -25,10 +29,10 @@ const App = () => (
           <Route path="/signup" element={<Signup />} />
           <Route path="/dashboard" element={<DashboardLayout><Dashboard /></DashboardLayout>} />
           <Route path="/students" element={<DashboardLayout><Students /></DashboardLayout>} />
-          <Route path="/subjects" element={<DashboardLayout><div>Subjects Page</div></DashboardLayout>} />
-          <Route path="/scores" element={<DashboardLayout><div>Scores Page</div></DashboardLayout>} />
-          <Route path="/reports" element={<DashboardLayout><div>Reports Page</div></DashboardLayout>} />
-          <Route path="/analytics" element={<DashboardLayout><div>Analytics Page</div></DashboardLayout>} />
+          <Route path="/subjects" element={<DashboardLayout><Subjects /></DashboardLayout>} />
+          <Route path="/scores" element={<DashboardLayout><Scores /></DashboardLayout>} />
+          <Route path="/reports" element={<DashboardLayout><Reports /></DashboardLayout>} />
+          <Route path="/analytics" element={<DashboardLayout><Analytics /></DashboardLayout>} />
           <Route path="/settings" element={<DashboardLayout><div>Settings Page</div></DashboardLayout>} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
