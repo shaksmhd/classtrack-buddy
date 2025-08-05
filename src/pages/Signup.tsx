@@ -58,7 +58,7 @@ const Signup = () => {
           <div className="mx-auto h-16 w-16 bg-primary rounded-full flex items-center justify-center mb-4">
             <GraduationCap className="h-8 w-8 text-primary-foreground" />
           </div>
-          <h1 className="text-3xl font-bold text-foreground">EduTracker</h1>
+          <h1 className="text-3xl font-bold text-foreground">Feature Builder</h1>
           <p className="text-muted-foreground mt-2">Create your teacher account</p>
         </div>
 
@@ -66,7 +66,7 @@ const Signup = () => {
           <CardHeader>
             <CardTitle>Sign Up</CardTitle>
             <CardDescription>
-              Create an account weclome to Feature Builders,  signup and start managing your classes
+              Create an account welcome to Feature Builders,  signup and start managing your classes
             </CardDescription>
           </CardHeader>
           <CardContent>
