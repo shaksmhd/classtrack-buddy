@@ -36,7 +36,7 @@ const Login = () => {
           <div className="mx-auto h-16 w-16 bg-primary rounded-full flex items-center justify-center mb-4">
             <GraduationCap className="h-8 w-8 text-primary-foreground" />
           </div>
-          <h1 className="text-3xl font-bold text-foreground">EduTracker</h1>
+          <h1 className="text-3xl font-bold text-foreground">Feature Builders</h1>
           <p className="text-muted-foreground mt-2">Sign in to your teacher account</p>
         </div>
 
@@ -56,7 +56,7 @@ const Login = () => {
                   <Input
                     id="email"
                     type="email"
-                    placeholder="teacher@school.com"
+                    placeholder="teacher@featurebuilders.com"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     className="pl-10"
