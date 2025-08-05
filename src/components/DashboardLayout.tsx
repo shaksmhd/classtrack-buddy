@@ -14,7 +14,7 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
           <header className="h-14 border-b border-border bg-card flex items-center px-4 sticky top-0 z-10">
             <SidebarTrigger className="mr-4" />
             <div className="flex-1">
-              <h1 className="font-semibold text-foreground">School Management System</h1>
+              <h1 className="font-semibold text-foreground">Feature Builders Int.</h1>
             </div>
           </header>
           <main className="flex-1 p-6">
