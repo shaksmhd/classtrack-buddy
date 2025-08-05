@@ -38,7 +38,7 @@ const Signup = () => {
       setIsLoading(false);
       toast({
         title: "Account created!",
-        description: "Welcome to EduTracker. Please sign in to continue.",
+        description: "Welcome to Feature Builders Intg. Please sign in to continue.",
       });
       navigate("/login");
     }, 1000);
@@ -66,7 +66,7 @@ const Signup = () => {
           <CardHeader>
             <CardTitle>Sign Up</CardTitle>
             <CardDescription>
-              Create an account to start managing your classes
+              Create an account weclome to Feature Builders,  signup and start managing your classes
             </CardDescription>
           </CardHeader>
           <CardContent>
@@ -96,7 +96,7 @@ const Signup = () => {
                     id="email"
                     name="email"
                     type="email"
-                    placeholder="teacher@school.com"
+                    placeholder="teacher@featurebuilders.com"
                     value={formData.email}
                     onChange={handleInputChange}
                     className="pl-10"
@@ -113,7 +113,7 @@ const Signup = () => {
                     id="school"
                     name="school"
                     type="text"
-                    placeholder="Springfield Elementary"
+                    placeholder="Feature Builders Intg"
                     value={formData.school}
                     onChange={handleInputChange}
                     className="pl-10"
